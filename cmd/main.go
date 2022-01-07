@@ -18,5 +18,5 @@ type Tree[T interface{}] struct {
 }
 
 func main() {
-	fmt.Println(min(1, 2))
+	fmt.Println(min[int](1, 2))
 }
