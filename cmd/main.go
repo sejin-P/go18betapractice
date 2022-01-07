@@ -5,6 +5,8 @@ import (
 	"fmt"
 )
 
+// ref: https://www.youtube.com/watch?v=Pa_e9EeCdy8
+
 type Point []int32
 
 func min[T constraints.Ordered](x, y T) T {
